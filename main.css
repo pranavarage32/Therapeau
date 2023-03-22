@@ -1,0 +1,377 @@
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+.header1{
+    background-color:#333;
+}
+.logo{
+    color: white;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(74.24deg, #83EAF1 -5.49%, rgba(255, 245, 245, 0.78) 7.13%, #63A4FF 100.52%);
+}
+
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+
+nav li {
+  margin-left: 20px;
+}
+
+
+nav li a {
+    color: white;
+  font-size: 18px;
+}
+
+
+/* Hero Styles */
+
+
+hero {
+
+background-color: #f9f9f9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+hero h2 {
+
+font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+hero p {
+
+font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* Product/Service Styles */
+
+
+product {
+
+padding: 100px 0;
+  background-color: #fff;
+}
+
+
+product h2 {
+
+font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+product p {
+
+font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* About Us Styles */
+
+
+about {
+
+padding: 100px 0;
+  background-color: #f9f9f9;
+}
+
+
+about h2 {
+
+font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+about p {
+
+font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* Team Styles */
+
+
+team {
+
+padding: 100px 0;
+  background-color: #fff;
+}
+
+
+team h2 {
+
+font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.team-member {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+
+.team-member h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.team-member p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+/* Testimonials Styles */
+
+
+testimonials {
+
+padding: 100px 0;
+  background-color: #f9f9f9;
+}
+
+
+testimonials h2 {
+
+font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.testimonial {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.testimonial p:first-child {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+.testimonial p.customer {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* Contact Styles */
+
+
+/* contact {
+
+padding: 100px 0;
+  background-color: #fff;
+}
+
+
+contact h2 {
+
+font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+} */
+
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+form textarea {
+  height: 150px;
+}
+
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.btn:hover {
+  background-color: #555;
+}
+
+#contact {
+    /* background-color: #f9f9f9;
+    
+    */
+    background: linear-gradient(74.24deg, #83EAF1 -5.49%, rgba(255, 245, 245, 0.78) 7.13%, #63A4FF 100.52%);
+
+    padding: 80px 0;
+  }
+  
+  #contact h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    width: 500px;
+    
+    margin-bottom: 20px;
+  }
+
+
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-info p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }  
